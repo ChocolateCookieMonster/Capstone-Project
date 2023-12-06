@@ -20,9 +20,15 @@ This project focuses on evaluating and comparing various machine learning models
 
 1. **Open Google Colab**: Visit [Google Colab](https://colab.research.google.com/) and sign in with your Google account.
 
-2. **Upload the Notebook**: Click on `File` > `Upload notebook` and select the Jupyter notebook file (`.ipynb`) from your computer.
+2. **Download and upload the Datasets**: Download the Test_data.csv and Train_data.csv and upload to your Google Drive.
 
-3. **Mount Google Drive** (if your data is stored on Google Drive):
+3. **Mount Google Drive**:
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
+
+4. **Load Datasets**(Make sure to save the datasets into your Google Drive):
+   ```python
+   # Load data
+   train = pd.read_csv('/content/drive/MyDrive/Datasets/Train_data.csv')
+   test = pd.read_csv('/content/drive/MyDrive/Datasets/Test_data.csv')
