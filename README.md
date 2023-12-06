@@ -27,7 +27,7 @@ This project focuses on evaluating and comparing various machine learning models
    from google.colab import drive
    drive.mount('/content/drive')
 
-4. **Load Datasets**(Make sure to save the datasets into your Google Drive):
+4. **Load Datasets**(Make sure to save the datasets into your Google Drive): Update the file path to your saved file path in your Google Drive.
    ```python
    # Load data
    train = pd.read_csv('/content/drive/MyDrive/Datasets/Train_data.csv')
