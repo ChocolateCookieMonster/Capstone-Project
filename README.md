@@ -32,3 +32,5 @@ This project focuses on evaluating and comparing various machine learning models
    # Load data
    train = pd.read_csv('/content/drive/MyDrive/Datasets/Train_data.csv')
    test = pd.read_csv('/content/drive/MyDrive/Datasets/Test_data.csv')
+
+5. **Running the Code**: Execute each cell in the notebook sequentially by pressing Shift + Enter. To run all cells at once, you can use the Runtime > Run all option in the menu
